@@ -1,17 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<link rel=“estilo" href=“estilo.css">
-<title>Minha página pessoal</title>
+	<title>Meu Site</title>
+	<!-- Importações de CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="./estilo/estilo.css">
+
+	<link rel="icon" type="image/x-icon" href="imagens/favicon.png">
+	<meta name="author" content="Alison Vortmann">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-  <body>
-    <h1>Um vicio</h1>
-    <img src="imagens/assistir.png" alt=“Imagem que gosto“>
-    <p>Assistir é uma das coisas que mais gosto de fazer, é algo essêncial para desenvolver novas habilidades e tambem para gastar tempo</p>
-    </br>
-    <h1>Um outro vicio, talvez pior</h1>
-    <img src="imagens/automobilismo.png" alt=“Imagem que gosto“>
-    <p>Tem gente que gosta de futebol, eu nunca vi graça, prefiro muito mais perder tempo vendo carros correndo e dinheio fazendo o meu andar</p>
-  </body>
+	<body>
+		<!-- Sobre min -->
+		<section class="section section-1">
+			<div class="container has-text-centered">
+				<img class="avatar" src="https://github.com/alisonvor.png">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					Estou em contato com a computação desde criança, a partir do momento que descobri a programação achei que conseguia entender a proporção do tamanho dessa área e me apaixonei completamente, estava errado obviamente, eu não fazia ideia de como esse mundo funcionava. Solucionar problemas é uma das coisas que mais gosto na área, pois sempre existe algo novo a aprender e se acabares os problemas, acabou a programação.
+				</p>
+			</div>
+		</section>
+		
+		<!-- Interesses -->
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Interesses</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Interesse 1 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="imagens/project-1.jpg" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+                    Acredito que todos devemos ter algum hobby, algo pelo qual você queira que o sábado chegue, pra min isso é o mundo automotivo. Passar a semana toda trabalhando e quando poderia descansar mexer com tralha velha.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- Interesse 2 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="imagens/project-2.jpg" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+                    A área da programação nunca para, então acaba tendo que por obrigação ser um interesse, caso contrário, suas habilidades caem em desuso por não acompanhar a evolução das tecnologias e métodos.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="section-3 has-text-centered">
+			<div class="nav-center">
+				<a target="_blank" href="https://github.com/alisonvor" class="nav-item">
+          <span class="icon">
+            <i class="fa fa-github"></i>
+          </span>
+        </a>
+				<a target="_blank" href="https://www.linkedin.com/in/alison-vortmann/" class="nav-item">
+          <span class="icon">
+            <i class="fa fa-linkedin"></i>
+          </span>
+        </a>				
+			</div>
+		</section>
+	</body>	
 </html>

@@ -1,7 +1,70 @@
-h1 {
-  font-size: 60px;
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-  p {
-    color: red;
+
+html,
+body {
+  font-size: 16px;
+  color: #e1e1e6;
+  background-color: #141212;
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section-1 {
+  background: #141212;
+}
+
+.section-2 {
+  background-color: #171b22;
+}
+
+.section-3 {
+  background-color: #141212;
+  padding: 16px;
+  height: 64px;
+}
+
+a.nav-item {
+  color: #dfdfdf;
+}
+
+a.nav-item:hover {
+  color: rgb(160, 160, 160);
+}
+
+.avatar {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.intro-description {
+  padding-top: 1rem;
+}
+
+.project-figure {
+  margin: 0 auto 1rem auto;
+  max-height: 256px;
+  max-width: 256px;
+}
+
+.project-text {
+  text-align: justify;
+}
+
+.box {
+  background-color: transparent;
+  border: 2px solid #141212;
+}
+
+.title {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 2rem;
 }
